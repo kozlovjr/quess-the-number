@@ -4,6 +4,9 @@ version = "0.1.0"
 description = ""
 authors = ["nikitakozlovjr <nikita3726898@gmail.com>"]
 readme = "README.md"
+packages = [
+  { include = "quess_the_number" },
+]
 
 [tool.poetry.dependencies]
 python = "3.9"
