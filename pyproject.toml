@@ -4,6 +4,8 @@ version = "0.1.0"
 description = ""
 authors = ["nikitakozlovjr <nikita3726898@gmail.com>"]
 readme = "README.md"
+
+[tool.poetry]
 packages = [
   { include = "quess_the_number" },
 ]
